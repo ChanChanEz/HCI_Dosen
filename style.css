@@ -13,8 +13,11 @@
 }
 
 .header p{
-    font-size: 50px;
+    font-size: 3.5vh;
     color: green;
+}
+.header img{
+    width: 10vw;
 }
 
 .navbar{
@@ -27,7 +30,8 @@
     color: white;
     display: block;
     padding: 10px 5px;
-    font-size: 30px;
+    font-size: 3vh;
+    /* font-size: 30px; */
 }
 
 .navbar>ul{
@@ -72,7 +76,7 @@
 
 .footer>p{
     color: white;
-    font-size: 30px;
+    font-size: 3vh;
 }
 
 .sosmed>a>img{
@@ -86,7 +90,7 @@
     color: white;
     display: block;
     padding: 10px 5px;
-    font-size: 30px; 
+    font-size: 3vh; 
 }
 
 .sitemap>ul{
@@ -106,7 +110,7 @@
 }
 
 /* Yang Media2 gitu */
-@media (max-width: 500px){
+@media (max-width: 900px){
     /* ^ klo lebh kecil dari 500px trigger sesuatu yang rubah */
     .navbar>ul{
         display: block;
